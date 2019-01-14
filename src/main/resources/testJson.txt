@@ -1,0 +1,9 @@
+[
+  {
+    "hash":"hash1",
+    "testClasses": [
+      "GaussCalcTest1","GaussCalcTest2","GaussCalcTest4"]
+  },
+  {"hash":"hash2",
+    "testClasses": [
+      "TestClass2","TestClass3"]}]

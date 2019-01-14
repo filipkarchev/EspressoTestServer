@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature_model name="FeatureIDE model">
+    <feature_tree>
+:r Config(Config)
+	:m OS(OS)
+		:m Android(Android)
+			:g [1,1]
+				: M(M)
+				: N(N)
+				: O(O)
+	:m CameraApp(CameraApp)
+		:m DefaultApp(DefaultApp)
+			:g [1,1]
+				: LGCamApp(LGCamApp)
+				: SonyCamApp(SonyCamApp)
+		:o AdditionalApp(AdditionalApp)
+			:g [1,*]
+				: GoogleCamera(GoogleCamera)
+					:g [1,1]
+						: v3_x(v3_x)
+						: v4_x(v4_x)
+						: v5_x(v5_x)
+				: MyCamera(MyCamera)
+	:m CameraHw(CameraHw)
+		:o LGCam(LGCam)
+		:o SonyCam(SonyCam)
+			:g [1,1]
+				: XZ(XZ)
+				: XZ1(XZ1)
+</feature_tree>
+    <constraints>
+C1:~v3_x  or  M
+C2:~v4_x  or  N
+C3:~v5_x  or  O
+</constraints>
+</feature_model>
