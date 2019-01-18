@@ -1,9 +1,9 @@
 [
   {
-    "hash":"hash1",
+    "hash":"b596e16c34cd9d5e553f93fe24a62afcff682b2eae9b73955d0bba9595847434",
     "testClasses": [
-      "ConversationListActivityTest,ConversationListActivityTest2,ConversationListActivityTest3"]
+      "ConversationListActivityTest","ConversationListActivityTest2","ConversationListActivityTest3","ConversationListActivityTest4"]
   },
-  {"hash":"hash2",
+  {"hash":"b596e16c34cd9d5e553f93fe24a62afcff682b2eae9b73955d0bba9595847434X",
     "testClasses": [
-      "TestClass2","TestClass3"]}]
+      "GaussCalc"]}]

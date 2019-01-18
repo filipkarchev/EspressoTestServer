@@ -2,7 +2,11 @@ package it.gauss.invivo.server.test;
 
 import java.util.ArrayList;
 
-
+/**
+ * Model representaion of the information which tests should be executed for configuration with the given hash
+ * @author Karchev
+ *
+ */
 public class TestInfo {
 	private String hash;
 	ArrayList<String> testClasses = new ArrayList<String>();
@@ -39,6 +43,10 @@ public class TestInfo {
 		this.testClasses = testClasses;
 	}
 	
+	
+	/**
+	 * Used for searching in the list of TestInfo elements
+	 */
 	@Override
     public boolean equals(Object obj) {
         if (obj == null) {
